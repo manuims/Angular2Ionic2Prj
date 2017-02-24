@@ -1,0 +1,26 @@
+<ion-header>
+<header [heading]="myValue"></header>
+</ion-header>
+
+<ion-content padding>
+    <ion-list>
+
+    <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text"></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password"></ion-input>
+    </ion-item>
+
+    <ion-item></ion-item>                
+</ion-list>
+
+ <div padding>
+  <button ion-button (click)="loginHandler()">Log In</button>
+  <button ion-button>Forgot Password</button>
+</div>
+     
+</ion-content>

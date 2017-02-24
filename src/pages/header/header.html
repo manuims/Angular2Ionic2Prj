@@ -1,0 +1,10 @@
+  <ion-navbar color="primary" >
+    <ion-title>
+      {{heading}}
+    </ion-title>
+    <ion-buttons end *ngIf="isLogin">
+      <button ion-button icon-only (click)="logOut()">
+        <ion-icon name="md-log-out"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
